@@ -1,6 +1,6 @@
 # Debian 10 (Buster) Ansible Test Image
 
-[![CI](https://github.com/geerlingguy/docker-debian10-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/geerlingguy/docker-debian10-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/geerlingguy/docker-debian10-ansible)](https://hub.docker.com/r/geerlingguy/docker-debian10-ansible/)
+[![CI](https://github.com/slange-dev/docker-debian10-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/slange-dev/docker-debian10-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/slangedev/docker-debian10-ansible)](https://hub.docker.com/r/slangedev/docker-debian10-ansible/)
 
 Debian 10 (Buster) Docker container for Ansible playbook and role testing.
 
@@ -14,7 +14,7 @@ This image is built on Docker Hub automatically any time the upstream OS contain
 
   1. [Install Docker](https://docs.docker.com/engine/installation/).
   2. `cd` into this directory.
-  3. Run `docker build -t debian10-ansible .`
+  3. Run `docker build -t docker-debian10-ansible`
 
 > Note: Switch between `master` and `testing` depending on whether you want the extra testing tools present in the resulting image.
 
