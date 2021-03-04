@@ -46,6 +46,9 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+![image](https://user-images.githubusercontent.com/16810959/29695161-2d8ef9e6-890f-11e7-8b1d-cf3e0c281755.png)
+
+
 ## 💛 Support the project
 
 If this project was useful to you in some form, I would be glad to have your support.  It will help to keep the project alive and to have more time to work on Open Source.
@@ -61,9 +64,7 @@ You can also contribute with
 👤 **slange-dev**
 
 * Website: [https://github.com/slange-dev](https://github.com/slange-dev)
-
 * Dev.to: [https://dev.to/slangedev](https://dev.to/slangedev)
-     
 * Github: [@slange-dev](https://github.com/slange-dev)
 
 ## Copyright
