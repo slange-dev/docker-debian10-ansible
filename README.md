@@ -1,6 +1,9 @@
 # Debian 10 (Buster) Ansible Test Image
 
-[![Building](https://github.com/slange-dev/docker-debian10-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/slange-dev/docker-debian10-ansible/actions/workflows/build.yml)[![Docker pulls](https://img.shields.io/docker/pulls/slangedev/docker-debian10-ansible)](https://hub.docker.com/r/slangedev/docker-debian10-ansible/)
+[![Building](https://github.com/slange-dev/docker-debian10-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/slange-dev/docker-debian10-ansible/actions/workflows/build.yml)
+[![Docker pulls](https://img.shields.io/docker/pulls/slangedev/docker-debian10-ansible)](https://hub.docker.com/r/slangedev/docker-debian10-ansible/)
+[![Version](https://img.shields.io/docker/v/slangedev/docker-debian10-ansible/latest)](https://hub.docker.com/r/slangedev/docker-debian10-ansible/)
+[![Image Size](https://img.shields.io/docker/image-size/slangedev/docker-debian10-ansible/latest)](https://hub.docker.com/r/slangedev/docker-debian10-ansible/)
 
 Debian 10 (Buster) Docker container for Ansible playbook and role testing.
 
@@ -33,6 +36,33 @@ I use Docker to test my Ansible roles and playbooks on multiple OSes using CI to
 
 > **Important Note**: I use this image for testing in an isolated environment—not for production—and the settings and configuration used may not be suitable for a secure and performant production environment. Use on production servers/in the wild at your own risk!
 
+## 🤝 Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 💛 Support the project
+
+If this project was useful to you in some form, I would be glad to have your support.  It will help to keep the project alive and to have more time to work on Open Source.
+
+The sinplest form of support is to give a ⭐️ to this repo.
+
+You can also contribute with 
+
+<a href="https://www.buymeacoffee.com/slange.dev" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
 ## Author
 
-Created in 2021 by [slange-dev](https://www.slange-dev.github.io/).
+👤 **slange-dev**
+
+* Website: [https://github.com/slange-dev](https://github.com/slange-dev)
+* Github: [@slange-dev](https://github.com/slange-dev)
+
+## Copyright
+
+Copyright © in 2021 by [slange-dev](https://github.com/slange-dev).
