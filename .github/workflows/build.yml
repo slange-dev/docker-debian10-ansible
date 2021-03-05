@@ -130,7 +130,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
-          repository: slangedev/docker-centos7-ansible
+          repository: slangedev/docker-debian10-ansible
 
       - name: Image digest
         id: image_digest
