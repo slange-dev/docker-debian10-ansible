@@ -21,7 +21,7 @@ jobs:
     name: Linting
     runs-on: ubuntu-latest
 
-    steps: 
+    steps:
       - name: Checkout
         uses: actions/checkout@master
 
@@ -48,19 +48,19 @@ jobs:
         run: docker build -t docker-ansible .
         env:
           DOCKER_CLI_EXPERIMENTAL: enabled
-  
+
       - name: Run the built image.
         id: run_image
         run: docker run --name test-container -d --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro docker-ansible
         env:
           DOCKER_CLI_EXPERIMENTAL: enabled
-          
+
       - name: Verify Ansible is accessible in the built image.
         id: test_ansible
         run: docker exec --tty test-container env TERM=xterm ansible --version
         env:
           DOCKER_CLI_EXPERIMENTAL: enabled
-          
+
   # If on main branch, build and release the image.
   release:
     name: Release
